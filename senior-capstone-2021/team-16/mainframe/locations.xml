@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<markers>
+    <marker id="1" name="CVS Pharmacy" address="444 State Rd 46, Bloomington, IN" lat="39.21517" lng="-86.59174" type="testing" />
+    <marker id="2" name="Indiana National Guard Armory" address="33380 S Walnut St., Bloomington, IN" lat="39.12580" lng="-86.53195" type="testing" />
+    <marker id="3" name="IU Health Bloomington Remote Specimen Collection" address="550 S Landmark Ave, Bloomington, IN" lat="39.16086" lng="-86.55535" type="testing" />
+    <marker id="4" name="Monroe Hospital" address="4011 S Medical Monroe Park Blvd, Bloomington, IN" lat="39.12084" lng="-86.57189" type="testing" />
+    <marker id="5" name="IU Auditorium (Students Only)" address="1211 E. 7th St, Bloomington, IN" lat="39.16866" lng="-86.51782" type="testing" />
+    <marker id="6" name="Cramer Marching Hundred Hall (Students Only)" address="800 E 17th St, Bloomington, IN" lat="39.17894" lng="-86.52314" type="testing" />
+    <marker id="7" name="East Parking Garage-Lower Level (Students Only)" address="150 N. Jordan Ave, Bloomington, IN" lat="39.16812" lng="-86.51601" type="testing" />
+    <marker id="8" name="Monroe County Community Testing Site" address="640 S Morton St, Bloomington, IN" lat="39.16076" lng="-86.53666" type="testing" />
+    <marker id="9" name="HealthNet Bloomington Health Center (HealthNet patients only)" address="811 W 2nd St, Bloomington, IN" lat="39.16112" lng="-86.54248" type="testing" />
+    <marker id="10" name="IU Health Bloomington COVID-19 Vaccine Clinic" address="619 W 1st St, Bloomington, IN" lat="39.15934" lng="-86.54069" type="vaccine" />
+</markers>

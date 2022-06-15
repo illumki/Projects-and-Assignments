@@ -1,0 +1,19 @@
+CREATE TABLE `locations` (
+  `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+  `name` VARCHAR( 60 ) NOT NULL ,
+  `address` VARCHAR( 80 ) NOT NULL ,
+  `lat` FLOAT( 10, 6 ) NOT NULL ,
+  `lng` FLOAT( 10, 6 ) NOT NULL ,
+  `type` VARCHAR( 30 ) NOT NULL
+) ENGINE = MYISAM ;
+
+INSERT INTO `locations` (`id`, `name`, `address`, `lat`, `lng`, `type`) 
+VALUES ('1', 'CVS Pharmacy', '4444 State Rd 46, Bloomington, IN', '39.21517', '-86.59174', 'testing area'),
+('2', 'ISDH Test Site National Guard Armory', '76 Wilford Street, Bloomington, IN', '-33.898113', '151.174469', 'bar'),
+('3', 'IU Health Bloomington Remote Specimen Collection', 'Greenwood Plaza, Bloomington, IN', '-33.840282', '151.207474', 'bar'),
+('4', 'Monroe Hospital', '7A, 2 Huntley Street, Bloomington, IN', '-33.910751', '151.194168', 'bar'),
+('5', 'IU Auditorium (IU students)', '16 Foster Street, Bloomington, IN', '-33.879917', '151.210449', 'bar'),
+('6', 'Cramer Marching Hundred Hall (IU students)', '43 Macpherson Street, Bloomington, IN', '-33.906357', '151.263763', 'restaurant'),
+('7', 'East Parking Garage High Risk (IU students)', '60-64 Reservoir Street, Bloomington, IN', '-33.881123', '151.209656', 'restaurant'),
+('8', 'Monroe County Community Testing Site', '60 Riley Street, Bloomington, IN', '-33.874737', '151.215530', 'restaurant'),
+('9', 'HealthNet Bloomington Health Center (HealthNet only)', '60 Riley Street, Bloomington, IN', '-33.874737', '151.215530', 'restaurant');

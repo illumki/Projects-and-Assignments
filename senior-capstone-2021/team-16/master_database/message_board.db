@@ -1,0 +1,11 @@
+CREATE TABLE message_board
+(
+  postID INT NOT NULL,
+  body varchar(3000) NOT NULL,
+  date_created varchar(255) NOT NULL,
+  UserID INT NOT NULL,
+  parentID INT,
+  email varchar(255) NOT NULL,
+  FOREIGN KEY(UserID) REFERENCES user(UserID),
+  PRIMARY KEY (PostID)
+); 
