@@ -1,0 +1,7 @@
+CREATE TABLE symptoms_tracker
+(
+  match_percent varchar(25) NOT NULL,
+  SymptomID INT NOT NULL,
+  name varchar(50) NOT NULL,
+  PRIMARY KEY (SymptomID)
+);

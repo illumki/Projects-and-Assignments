@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+html{
+    overflow-x: hidden;
+}
+/*header{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: aquamarine;
+}
+header ul{
+    margin-top: -20px;
+    float: right;
+}
+header ul li{
+    padding-right: 10px;
+    display: inline-block;
+    list-style: none;
+}
+*/
+.content{
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    min-height: 565px;
+}
+
+form{
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+form input[type="submit"], button{
+    background-color: rgb(1, 247, 255);
+    border-radius: 5px;
+    padding: 10px;
+}
+.content .sidebar{
+    width: 200px;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+}
+
+.content .sidebar img{
+    width: 180px;
+    margin: 10px auto;
+}
+
+.content .main{
+    width: calc(100% - 200px);
+    float: none;
+    margin: auto;
+}
+
+.content .main table{
+    margin: 10px;
+}
+
+/************************MESSAGE BOARD************************/
+#posts{
+    background-color: #909090;
+    padding: 10px;
+    padding-top: 20px;
+}
+.post{
+    text-align: left;
+}
+.post img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+.post p{
+    min-height: 50px;
+}
+.post .cmts{
+    margin-left: 80px;
+    background-color: #aaaaaa;
+    padding: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    width: calc(100% - 150px);
+    border-radius: 7px;
+}
+.post .cmts img{
+    width: 30px;
+    height: 30px;
+    border-radius:  40px;
+}
+#posts textarea{
+    width: 80%;
+    height: 60px;
+    margin-right: 6px;
+    margin-bottom: -25px;
+    padding: 6px;
+
+}
+.post button, #posts input[type="submit"]{
+    padding: 4px;
+}
+#posts form{
+    width: 100%;
+    text-align: left;
+    margin: 10px;
+}
+#posts h3{
+    text-align: left;
+}
+.cmt{
+    height: 0;
+    transition-duration: 0.5s;
+    overflow: hidden;
+}
+.cmt.show{
+    height: 60px;
+    transition-duration: 0.5s;
+}
+.post i{
+    font-size: 9pt;
+    text-align: right;
+}

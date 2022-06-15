@@ -1,0 +1,11 @@
+CREATE TABLE user
+(
+  UserID INT NOT NULL,
+  first varchar(50) NOT NULL,
+  last varchar(50) NOT NULL,
+  city varchar(50) NOT NULL,
+  street varchar(50) NOT NULL,
+  state varchar(50) NOT NULL,
+  zip INT NOT NULL,
+  PRIMARY KEY (UserID)
+);

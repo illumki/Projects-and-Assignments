@@ -1,0 +1,8 @@
+CREATE TABLE account 
+(
+Username varchar(255) NOT NULL,
+Password varchar(255) NOT NULL,
+Password2 varchar(255) NOT NULL,
+FOREIGN KEY(UserID) references user(UserID)
+);
+

@@ -1,0 +1,7 @@
+CREATE TABLE user_phone
+(
+  phone varchar(15) NOT NULL,
+  UserID INT NOT NULL,
+  PRIMARY KEY (phone),
+  FOREIGN KEY (UserID) REFERENCES user(UserID)
+);

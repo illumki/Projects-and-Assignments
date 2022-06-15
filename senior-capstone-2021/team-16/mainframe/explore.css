@@ -1,0 +1,26 @@
+.jumbotron{
+	background-color: cornsilk;
+}
+.jumbotron h1{
+	background-color: cornsilk;
+}
+.jbody{
+	background-color: cornsilk;
+}
+.img{
+	width: calc(100% - 20px);
+	height: 250px;
+	margin: 10px;
+}
+.NewsGrid{
+	margin: 10px;
+	border: 1px solid lightgray;
+	padding: 10px;
+}
+.container-fluid{
+	width:90%;
+}
+.map{
+        height: 50%;
+        width: 50%;
+      }

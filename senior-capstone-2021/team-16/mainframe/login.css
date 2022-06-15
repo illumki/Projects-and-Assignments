@@ -1,0 +1,33 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+.form {
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px 25px;
+    border: solid #000;
+    border-width: 2px;
+}
+
+
+h1.login-title {
+    color: black;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.g-signin2 {
+  margin-left: 130px;
+	margin-right: auto;
+	max-width: 600px;
+	float: none;
+}

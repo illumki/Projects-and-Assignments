@@ -1,0 +1,6 @@
+CREATE TABLE developers
+(
+  permissions INT NOT NULL,
+  Admin INT NOT NULL,
+  PRIMARY KEY (Admin)
+);
